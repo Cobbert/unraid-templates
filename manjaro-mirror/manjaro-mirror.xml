@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>ManjaroMirror</Name>
-  <Repository>tobiaswx/manjaro-package-mirror</Repository>
+  <Repository>cobbert/manjaro-package-mirror</Repository>
   <Registry>https://github.com/tobiaswx/manjaro-package-mirror</Registry>
   <Network>bridge</Network>
   <Beta>False</Beta>
