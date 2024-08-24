@@ -4,23 +4,13 @@
   <Repository>cardanocommunity/cardano-node</Repository>
   <Registry>https://hub.docker.com/r/cardanocommunity/cardano-node</Registry>
   <Network>bridge</Network>
-  <MyIP />
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support>https://cardano-community.github.io/guild-operators/#support</Support>
   <Project>https://github.com/cardano-community/guild-operators</Project>
   <Overview>https://docs.cardano.org/about-cardano/explore-more/cardano-architecture/</Overview>
-  <Category />
-  <WebUI />
-  <TemplateURL />
   <Icon>https://cardano.org/img/brand-assets/cardano-stacked-blue.svg</Icon>
-  <ExtraParams />
-  <PostArgs />
-  <CPUset />
   <DateInstalled>1724436278</DateInstalled>
-  <DonateText />
-  <DonateLink />
-  <Requires />
   <Description>https://docs.cardano.org/about-cardano/explore-more/cardano-architecture/</Description>
   <Networking>
     <Mode>bridge</Mode>
