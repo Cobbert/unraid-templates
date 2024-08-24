@@ -6,6 +6,9 @@
   <Network>bridge</Network>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
+  <Beta>False</Beta>
+  <Category>Crypto: Tools: Tools:System</Category>
+  <Date>2024-08-23</Date>
   <Support>https://cardano-community.github.io/guild-operators/#support</Support>
   <Project>https://github.com/cardano-community/guild-operators</Project>
   <Overview>https://docs.cardano.org/about-cardano/explore-more/cardano-architecture/</Overview>
