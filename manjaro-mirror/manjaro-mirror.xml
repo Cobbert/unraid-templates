@@ -4,7 +4,9 @@
   <Repository>tobiaswx/manjaro-package-mirror</Repository>
   <Registry>https://github.com/tobiaswx/manjaro-package-mirror</Registry>
   <Network>bridge</Network>
-  <MyIP/>
+  <Beta>False</Beta>
+  <Category>Downloaders: Network:Web Tools:</Category>
+  <Date>2024-08-24</Date>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Overview>Docker container which mirrors manjaro packages and serves them via nginx&#xD;
@@ -21,7 +23,8 @@ Europe / United Kingdom         rsync://mirrorservice.org/repo.manjaro.org/repos
 RU / Russian Federation         rsync://mirror.yandex.ru/mirrors/manjaro/</Overview>
   <WebUI>http://[IP]:[PORT:80]</WebUI>
   <Icon>https://raw.githubusercontent.com/Cobbert/unraid-templates/72c79a71f78d4388f20622e87d1c7a2302d6e14e/manjaro-mirror/Zy28VSg1_400x400.png</Icon>
-  <Config Name="mirror-path" Target="/srv/http/manjaro" Default="" Mode="rw" Description="Location of mirror files" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/manjaro-mirror</Config>
+  <Config Name="mirror-path" Target="/srv/http/manjaro" Default="" Mode="rw" Description="Location of mirror files" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache_nvme/appdata/manjaro-mirror</Config>
   <Config Name="Host Port 1" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8891</Config>
   <Config Name="SLEEP" Target="SLEEP" Default="6h" Mode="" Description="Adjusts the pause time between synchronizations" Type="Variable" Display="always" Required="false" Mask="false">6h</Config>
+  <Config Name="Source" Target="SOURCE_MIRROR" Default="rsync://mirrorservice.org/repo.manjaro.org/repos/" Mode="" Description="Manjaro has provided a list of Rsync-capable mirrors at https://wiki.manjaro.org/index.php/Manjaro_Mirrors, which synchronize from the official Manjaro server. It's best to choose the one closest to you." Type="Variable" Display="always" Required="false" Mask="false">rsync://mirrorservice.org/repo.manjaro.org/repos/</Config>
 </Container>
