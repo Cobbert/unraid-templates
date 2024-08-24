@@ -13,7 +13,6 @@
   <Project>https://github.com/cardano-community/guild-operators</Project>
   <Overview>https://docs.cardano.org/about-cardano/explore-more/cardano-architecture/</Overview>
   <Icon>https://cardano.org/img/brand-assets/cardano-stacked-blue.svg</Icon>
-  <DateInstalled>1724436278</DateInstalled>
   <Description>https://docs.cardano.org/about-cardano/explore-more/cardano-architecture/</Description>
   <Networking>
     <Mode>bridge</Mode>
