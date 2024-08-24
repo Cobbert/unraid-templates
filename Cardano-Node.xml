@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+	<Name>CardanoNode</Name>
+	<Repository>cardanocommunity/cardano-node</Repository>
+	<Registry>https://hub.docker.com/r/cardanocommunity/cardano-node</Registry>
+	<Network>bridge</Network>
+	<MyIP/>
+	<Shell>bash</Shell>
+	<Privileged>false</Privileged>
+	<Support>https://cardano-community.github.io/guild-operators/#support<Support/>
+	<Project>https://github.com/cardano-community/guild-operators<Project/>
+	<Overview></Overview>
+	<Category/>
+	<WebUI/>
+	<TemplateURL/>
+	<Icon>https://cardano.org/img/brand-assets/cardano-stacked-blue.svg<Icon/>
+	<ExtraParams/>
+	<PostArgs/>
+	<CPUset/>
+	<DateInstalled>1724436278</DateInstalled>
+	<DonateText/>
+	<DonateLink/>
+	<Requires/>
+	<Config Name="priv" Target="/opt/cardano/cnode/priv" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/cnode/priv</Config>
+	<Config Name="db" Target="/opt/cardano/cnode/db" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/cnode/db</Config>
+	<Config Name="cnode port" Target="6000" Default="6000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">6000</Config>
+	<Config Name="Network" Target="NETWORK" Default="mainnet" Mode="" Description="Choose network to run cnode on" Type="Variable" Display="always" Required="true" Mask="false">mainnet</Config>
+	<Config Name="Mithril Bootstrap" Target="MITHRIL_DOWNLOAD" Default="Y" Mode="" Description="This option will allow Mithril client to download the latest Mithril snapshot of the blockchain when the container starts and does not have a copy of the blockchain yet. This is useful when you want to start a new node from scratch and don't want to wait for the node to sync from the network. This option is not currently available for the guild network.&#13;&#10;&amp;lt;br&amp;gt;&amp;lt;br&amp;gt;&#13;&#10;Y for yes&amp;lt;br&amp;gt;&#13;&#10;N for no" Type="Variable" Display="always" Required="false" Mask="false">Y</Config>
+</Container>
