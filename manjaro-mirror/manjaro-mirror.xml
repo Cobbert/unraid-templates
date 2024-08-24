@@ -7,7 +7,7 @@
   <Beta>False</Beta>
   <Category>Downloaders: Network:Web Tools:</Category>
   <Date>2024-08-24</Date>
-  <Shell>sh</Shell>
+  <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Overview>Docker container which mirrors manjaro packages and serves them via nginx&#xD;
 &#xD;
