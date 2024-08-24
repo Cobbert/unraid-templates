@@ -12,7 +12,7 @@
   <Support>https://cardano-community.github.io/guild-operators/#support</Support>
   <Project>https://github.com/cardano-community/guild-operators</Project>
   <Overview>https://docs.cardano.org/about-cardano/explore-more/cardano-architecture/</Overview>
-  <Icon>https://github.com/Cobbert/unraid-templates/blob/a3e5b1b77066f22f06e44470ee6e2a4859cb8428/cardano-node/Cardano.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Cobbert/unraid-templates/a3e5b1b77066f22f06e44470ee6e2a4859cb8428/cardano-node/Cardano.png</Icon>
   <Description>https://docs.cardano.org/about-cardano/explore-more/cardano-architecture/</Description>
   <Config Name="priv" Target="/opt/cardano/cnode/priv" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/cnode/priv</Config>
   <Config Name="db" Target="/opt/cardano/cnode/db" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/cnode/db</Config>
