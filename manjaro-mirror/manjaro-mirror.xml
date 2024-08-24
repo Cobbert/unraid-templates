@@ -36,4 +36,3 @@ RU / Russian Federation         rsync://mirror.yandex.ru/mirrors/manjaro/</Overv
   <Config Name="Host Port 1" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8891</Config>
   <Config Name="SLEEP" Target="SLEEP" Default="6h" Mode="" Description="Adjusts the pause time between synchronizations" Type="Variable" Display="always" Required="false" Mask="false">6h</Config>
 </Container>
-root@Lucy:/boo
