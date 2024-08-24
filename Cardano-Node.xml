@@ -14,28 +14,6 @@
   <Overview>https://docs.cardano.org/about-cardano/explore-more/cardano-architecture/</Overview>
   <Icon>https://cardano.org/img/brand-assets/cardano-stacked-blue.svg</Icon>
   <Description>https://docs.cardano.org/about-cardano/explore-more/cardano-architecture/</Description>
-  <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>6000</HostPort>
-        <ContainerPort>6000</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
-  </Networking>
-  <Data>
-    <Volume>
-      <HostDir>/mnt/user/appdata/cnode/db</HostDir>
-      <ContainerDir>/opt/cardano/cnode/db</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
-      <HostDir>/mnt/user/appdata/cnode/priv</HostDir>
-      <ContainerDir>/opt/cardano/cnode/priv</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
   <Config Name="priv" Target="/opt/cardano/cnode/priv" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/cnode/priv</Config>
   <Config Name="db" Target="/opt/cardano/cnode/db" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/cnode/db</Config>
   <Config Name="cnode port" Target="6000" Default="6000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">6000</Config>
