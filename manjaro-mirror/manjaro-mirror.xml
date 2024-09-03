@@ -5,6 +5,7 @@
   <Registry>https://github.com/Cobbert/manjaro-package-mirror</Registry>
   <Network>bridge</Network>
   <Beta>False</Beta>
+  <Support>https://github.com/Cobbert/manjaro-package-mirror/issues</Support>
   <Category>Downloaders: Network:Web Tools:</Category>
   <Date>2024-08-24</Date>
   <Project>https://github.com/Cobbert/manjaro-package-mirror</Project>
